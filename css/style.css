@@ -381,9 +381,25 @@ ul {
     .boxname {
         font-size: 20px;
     }
+    nav {
+        padding-top: 20px;
+    }
     nav a {
         margin: 0 4px;
         font-size: 10px;
+    }
+    .about-section p {
+        font-size: 16px;
+    }
+    #aboutme, #contact {
+        padding-top: 80px;
+    }
+    #logos, #personal, #luminess, #web {
+        padding-top: 20px;
+    }
+    .art-container h1 {
+        text-align: center;
+        padding-left: 0;
     }
     .art-container h3 {
         font-size: 13px;
@@ -407,6 +423,19 @@ ul {
     }
     .boxname {
         font-size: 40px;
+    }
+    .about-section p {
+        font-size: 20px;
+    }
+    #aboutme, #contact {
+        padding-top: 150px;
+    }
+    #logos, #personal, #luminess, #web {
+        padding-top: 75px;
+    }
+    .art-container h1 {
+        text-align: left;
+        padding-left: .5em;
     }
 }
 
@@ -437,11 +466,11 @@ ul {
      max-width: 75em;
 }
 .art-container h1 {
-    text-align: left;
+
     color: #89704e;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    padding-left: .5em;
+
     margin-bottom: -.5em;
 }
 .art-container h3 {
@@ -468,7 +497,6 @@ ul {
 #logos {
     display: none;
     text-align: center;
-    top: 75px;
     position: relative;
     animation: fadein 0.7s;
     box-sizing: border-box;
@@ -511,7 +539,6 @@ ul {
 #personal {
     display: none;
     text-align: center;
-    top: 75px;
     position: relative;
     animation: fadein 0.7s;
     box-sizing: border-box;
@@ -538,7 +565,6 @@ ul {
 #luminess {
     display: none;
     text-align: center;
-    top: 75px;
     position: relative;
     animation: fadein 0.7s;
     box-sizing: border-box;
@@ -577,7 +603,6 @@ ul {
 #web {
     display: none;
     text-align: center;
-    top: 75px;
     position: relative;
     animation: fadein 0.7s;
     box-sizing: border-box;
@@ -601,8 +626,9 @@ ul {
 }
 
 /*About Me Section*/
-.aboutme {
+#aboutme {
     display: none;
+    position: relative;
 }
 .aboutbg {
     position: fixed;
@@ -616,8 +642,7 @@ ul {
 .about-section {
     text-align: center;
     max-width: 60em;
-    margin: 200px auto;
-    top: 300px;
+    margin: 0 auto;
 }
 .name-banner {
     width: 80%;
@@ -633,14 +658,13 @@ hr {
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 20px;
     text-align: left;
 }
 
 /*Contact Section*/
-.contact {
-    margin-top: 200px;
+#contact {
     display: none;
+    position: relative;
 }
 .contactbg {
     position: fixed;
@@ -659,7 +683,6 @@ hr {
     max-width: 60em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -4em;
 }
 .contact-section h1 {
     font-size: 4em;
